@@ -7,11 +7,12 @@ export default function CustomButton({
   title,
   containerStyles,
   handleClick,
+  btnType,
 }: CustomButtonProps) {
   return (
     <button
       disabled={false}
-      type={"button"}
+      type={btnType || "button"}
       className={`custom-btn  text-white rounded-full mt-10  ${containerStyles}`}
       onClick={handleClick}
     >
