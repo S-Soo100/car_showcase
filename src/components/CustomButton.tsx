@@ -13,7 +13,7 @@ export default function CustomButton({
     <button
       disabled={false}
       type={btnType || "button"}
-      className={`custom-btn  text-white rounded-full mt-10  ${containerStyles}`}
+      className={`custom-btn ${containerStyles}`}
       onClick={handleClick}
     >
       <span className="{`flex-1 bg-red-500`}">{title}</span>
