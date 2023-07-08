@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 
-export default function Hero() {
+const Hero = () => {
   const handleScroll = () => {};
   return (
     <div className="hero">
@@ -35,4 +35,5 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+};
+export default Hero;
